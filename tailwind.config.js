@@ -4,8 +4,10 @@ export default {
     theme: {
         extend: {
             colors: {
-                card: "#191919",
+                card: "#111111",
+                cardalt: "#181818",
                 cardbg: "#FFFFFF2C",
+                graytext: "#B4B4B4",
             },
         },
     },
