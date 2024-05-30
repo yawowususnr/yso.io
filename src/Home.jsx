@@ -3,7 +3,7 @@ import githubLogo from "./assets/github.png";
 import icon from "./assets/icon.png";
 import iconbetter from "./assets/removebg.png";
 import Highlights from "./components/Highlights";
-import linkedIn from './assets/linkedin480.png'
+import linkedIn from "./assets/linkedin480.png";
 
 export default function Home() {
     return (
@@ -12,9 +12,11 @@ export default function Home() {
                 <div className="sm:w-4/5 md:w-2/3 lg:w-2/5 mt-8">
                     <div className="my-10 flex items-end">
                         <div className="w-2/3">
-                            <h2 className="text-5xl font-bold">Hey, I'm Yaw</h2>
+                            <h2 className="text-5xl font-bold mt-32">
+                                Hey, I'm Yaw
+                            </h2>
                             <br />
-                            <div className="text-[#dddddd] text-xl">
+                            <div className="text-graytext text-xl">
                                 I'm a software developer who makes open-source
                                 projects and writes about life, code, design,
                                 and more. Welcome to my digital diary.
@@ -52,7 +54,7 @@ export default function Home() {
                             <p className="">All my projects!</p>
                             <br />
                             <a
-                                href="https://www.linkedin.com/in/yaw-owusu-snr/"
+                                href="https://github.com/YawOwusuSnr"
                                 className="rounded-2xl bg-[#313131] px-4 py-1 w-20 flex items-center gap-2"
                             >
                                 Follow
@@ -75,9 +77,9 @@ export default function Home() {
                             <br />
                             <a
                                 href="https://www.linkedin.com/in/yaw-owusu-snr/"
-                                className="rounded-2xl bg-[#313131] px-4 py-1 w-20 flex items-center gap-2"
+                                className="rounded-2xl bg-[#313131] px-3 py-1 w-24 flex items-center gap-2"
                             >
-                                Follow
+                                Connect!
                             </a>
                         </div>
                     </a>
@@ -126,14 +128,17 @@ export default function Home() {
                         </svg>
                     </h3>
                     <div className=" h w-full bg-card rounded-lg bg-card border border-cardbg flex items-center shadow-md mb-10">
-                        <div className="w-2/3 h-32 text-sm">
+                        <div className="w-2/3 text-sm">
                             <p className="m-4 text-graytext">
-                                I created a web scraper with BeautifulSoup to
-                                collect 2000+ data points from a gym website,
-                                storing them in MongoDB via Mongoose. Integrated
-                                React with Chart.js for dynamic attendance
-                                visualizations and developed models to email
-                                users when gym capacity is low.
+                                I've been working on several impactful projects
+                                across various domains, including web
+                                development, data visualization, and fitness
+                                technology. These projects involve creating web
+                                applications, developing Chrome extensions, and
+                                building fitness tracking tools. My work
+                                showcases skills in frontend development,
+                                backend APIs, data analysis, and user experience
+                                enhancement.
                             </p>
                         </div>
                         <div className="border-l border-cardbg w-1/3 h-32 flex flex-col items-center justify-center">
